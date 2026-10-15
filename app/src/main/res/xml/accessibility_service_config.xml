@@ -1,7 +1,9 @@
+
+<?xml version="1.0" encoding="utf-8"?>
 <accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/accessibility_service_description"
     android:accessibilityEventTypes="typeWindowStateChanged|typeWindowContentChanged|typeViewTextChanged"
     android:accessibilityFeedbackType="feedbackGeneric"
-    android:notificationTimeout="500"
     android:canRetrieveWindowContent="true"
-    android:description="Reads visible on-screen text only while you enable this service. Password fields are excluded."
+    android:notificationTimeout="100"
     android:accessibilityFlags="flagReportViewIds" />
